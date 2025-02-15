@@ -1,11 +1,16 @@
 {
   "name": "@mat-design/tokens",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "type": "module",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "index.d.ts",
+  "files": ["dist"],
   "devDependencies": {
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }

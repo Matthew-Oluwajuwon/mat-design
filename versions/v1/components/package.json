@@ -1,8 +1,10 @@
 {
   "name": "@mat-design/components",
   "version": "0.0.1",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "import": "./index.mjs",

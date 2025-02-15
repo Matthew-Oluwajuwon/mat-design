@@ -1,0 +1,11 @@
+{
+  "name": "@mat-design/tokens",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

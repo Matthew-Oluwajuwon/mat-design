@@ -1,0 +1,20 @@
+{
+  "name": "styled-system",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "versions/v1/styled-system",
+  "sourceRoot": "versions/v1/styled-system/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project styled-system --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/versions/v1/styled-system",
+        "tsConfig": "versions/v1/styled-system/tsconfig.lib.json",
+        "main": "versions/v1/styled-system/src/index.ts"
+      }
+    }
+  }
+}

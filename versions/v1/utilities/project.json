@@ -1,0 +1,20 @@
+{
+  "name": "utilities",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "versions/v1/utilities",
+  "sourceRoot": "versions/v1/utilities/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project utilities --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/versions/v1/utilities",
+        "tsConfig": "versions/v1/utilities/tsconfig.lib.json",
+        "main": "versions/v1/utilities/src/index.ts"
+      }
+    }
+  }
+}

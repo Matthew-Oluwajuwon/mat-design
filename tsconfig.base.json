@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mat-design/components": ["versions/v1/components/src/index.ts"],
+      "@mat-design/styled-system": ["versions/v1/styled-system/src/index.ts"],
+      "@mat-design/tailwind-plugin": [
+        "versions/v1/tailwind-plugin/src/index.ts"
+      ],
+      "@mat-design/tokens": ["versions/v1/tokens/src/index.ts"],
+      "@mat-design/utilities": ["versions/v1/utilities/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,9 +1,10 @@
-import NxWelcome from './nx-welcome';
+import { Button } from '@mat-design/components';
+import "../styles.css";
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="demo" />
+      <Button variant={'primary'}>Hi</Button>
     </div>
   );
 }

@@ -20,11 +20,17 @@ importers:
       iconoir-react:
         specifier: ^7.10.1
         version: 7.10.1(react@18.3.1)
+      mat-design-tailwind-plugin:
+        specifier: ^0.0.1
+        version: 0.0.1
+      mat-design-tokens:
+        specifier: ^0.0.1
+        version: 0.0.1
       react:
-        specifier: 18.3.1
+        specifier: ^18.0.0
         version: 18.3.1
       react-dom:
-        specifier: 18.3.1
+        specifier: ^18.0.0
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@babel/core':
@@ -5271,6 +5277,12 @@ packages:
 
   map-or-similar@1.5.0:
     resolution: {integrity: sha512-0aF7ZmVon1igznGI4VS30yugpduQW3y3GkcgGJOp7d8x8QrizhigUxjI/m2UojsXXto+jLAH3KSz+xOJTiORjg==}
+
+  mat-design-tailwind-plugin@0.0.1:
+    resolution: {integrity: sha512-TF+Id8x3mKtPmbCLRcNRGfe6daCyTBBho5NlIQLiyZI8WkXd1FPNsGRCfynoDsuJ7szDr2TjPXDaF1IVqslhuA==}
+
+  mat-design-tokens@0.0.1:
+    resolution: {integrity: sha512-HCF9eSAFywolFs6o5KmZAnVHX6mOtFZzMTsInvbs07V+ynl7a7yxE39EPOvXRyPmxT3Q6AXYA1oY9GF1DybQ8A==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -13842,6 +13854,12 @@ snapshots:
       tmpl: 1.0.5
 
   map-or-similar@1.5.0: {}
+
+  mat-design-tailwind-plugin@0.0.1: {}
+
+  mat-design-tokens@0.0.1:
+    dependencies:
+      tslib: 2.8.1
 
   math-intrinsics@1.1.0: {}
 

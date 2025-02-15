@@ -2,7 +2,7 @@
   "name": "mat-design",
   "version": "0.0.1",
   "license": "MIT",
-  "scripts": {}, 
+  "scripts": {},
   "private": true,
   "workspaces": [
     "versions/v1/*"
@@ -10,12 +10,16 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@fontsource/inter": "^5.1.1",
     "@storybook/addon-postcss": "^2.0.0",
     "class-variance-authority": "^0.7.1",
-    "iconoir-react": "^7.10.1"
+    "iconoir-react": "^7.10.1",
+    "mat-design-tailwind-plugin": "^0.0.1",
+    "mat-design-tokens": "^0.0.1"
   },
   "peerDependencies": {
     "react": "^18.0.0",

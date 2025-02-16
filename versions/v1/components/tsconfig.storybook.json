@@ -24,7 +24,7 @@
     "src/**/*.stories.mdx",
     ".storybook/*.js",
     ".storybook/*.ts",
-    "src/lib/button/Button.tsx",
+    "src/button/button.tsx",
     "../tokens/src/index.ts"
   ],
   "files": [

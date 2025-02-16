@@ -5,10 +5,6 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "index.d.ts",
-  "dependencies": {
-  "@mat-design/tokens": "^0.0.1",
-  "@mat-design/tailwind-plugin": "^0.0.1"
-},
   "exports": {
     ".": {
       "import": "./index.mjs",

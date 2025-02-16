@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ArrowLeft, ArrowRight, ArrowUp } from 'iconoir-react'; // Example Iconoir icon
-import { Button } from './Button';
+import { Button } from './button';
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
@@ -37,8 +37,8 @@ const meta: Meta<typeof Button> = {
   args: {
     children: 'Button',
     variant: 'primary',
-    size: 'giant',
-    rounded: 'giant',
+    size: 'medium',
+    rounded: 'medium',
     startIcon: <ArrowLeft />,
     endIcon: <ArrowRight />,
   },

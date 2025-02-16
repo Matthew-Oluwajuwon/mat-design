@@ -1,3 +1,4 @@
 import "./global.css";
-export * from './lib/button/Button';
+
+export * from './button';
 
